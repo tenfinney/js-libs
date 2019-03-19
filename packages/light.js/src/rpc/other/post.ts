@@ -8,7 +8,6 @@ import * as debug from 'debug';
 import { Observable, Observer } from 'rxjs';
 
 import { createApiFromProvider, getApi } from '../../api';
-import { distinctReplayRefCountDelay } from '../../utils/operators';
 import { RpcObservableOptions, Tx, TxStatus } from '../../types';
 
 interface PostOptions extends RpcObservableOptions {
